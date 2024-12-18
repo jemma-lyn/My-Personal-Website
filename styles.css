@@ -1,0 +1,192 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #020000;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #000000;
+  text-align: center;
+}
+
+/* Introduction Background */
+#intro-background {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #ff7eb3, #ff758c);
+  color: white;
+  text-align: center;
+}
+
+.intro-content {
+  max-width: 600px;
+}
+
+#enter-site {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #ff758c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#enter-site:hover {
+  background-color: #ffe4ed;
+}
+
+/* Header */
+header {
+  background: #db9090;
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+/* Navigation */
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ff758c;
+}
+
+/* Main Sections */
+main {
+  padding: 20px;
+}
+
+/* Home Section */
+#home {
+  background: #ffe4ed;
+  padding: 50px 20px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+#home h2 {
+  margin-bottom: 20px;
+}
+
+/* About Section */
+#about {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+#about .profile-pic {
+  border-radius: 50%;
+  border: 3px solid #ff758c;
+}
+
+#about p {
+  flex: 1;
+  font-size: 1.1rem;
+}
+
+/* Hobbies Section */
+#hobbies {
+  background: #ff758c;
+  color: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#hobbies ul {
+  list-style: none;
+  padding: 0;
+}
+
+#hobbies li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Contact Section */
+#contact {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #e4f0ff;
+  border-radius: 10px;
+}
+
+#contactForm {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #ff758c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #ff4a72;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}

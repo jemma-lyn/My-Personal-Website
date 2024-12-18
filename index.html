@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Introduction Background -->
+  <div id="intro-background" class="intro-background">
+    <div class="intro-content">
+      <h1>Hello, I'm Jemma Lyn C. Bonso!</h1>
+      <p>Welcome to my personal website!</p>
+      <button id="enter-site">Enter Site</button>
+    </div>
+  </div>
+
+  <header>
+    <h1>Welcome to My Personal Website</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Home</h2>
+      <p>Welcome to my personal website, where I share my journey, hobbies, and how to get in touch with me!</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="jemma.png" alt="Picture of Jemma Lyn C. Bonso" class="profile-pic" width="150" height="150">
+      <p>Hello! I'm Jemma Lyn C. Bonso, an aspiring IT Student passionate about the ever-evolving world of technology.</p>
+      <p>I'm 21 years old. I live in Sal-ing, Balilihan, Bohol</p>
+      <p>My journey in the field of IT has led me to explore various domains in web development.</p>
+    </section>
+
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Watching K-Dramas</li>
+        <li>Eating</li>
+        <li>Lying in Bed</li>
+        <li>Playing online games</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Personal Website</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
